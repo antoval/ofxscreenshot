@@ -42,3 +42,7 @@ void ofxScreenshot::record() {
 bool ofxScreenshot::isPaused() {
 	return paused;
 }
+
+void ofxScreenshot::toggle() {
+	paused = !paused;
+}

@@ -29,6 +29,7 @@ public:
 	void 		record();
 	void 		setPaused(bool bPaused);
 	bool 		isPaused();
+	void		toggle();
 
 private:
 	bool paused;
